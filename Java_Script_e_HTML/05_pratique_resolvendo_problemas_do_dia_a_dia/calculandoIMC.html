@@ -18,11 +18,9 @@
         return peso / (altura * altura);
     }
 
-    var imcFlavio = calculoIMC(1.71, 98);
-    var imcAmigo = calculoIMC(1.72, 68);
-
-    mostra(imcFlavio);
-    mostra(imcAmigo);
+    var totalIMC = calculoIMC(1.71, 98) + calculoIMC(1.72, 68);
+    
+    document.write("A soma dos IMC é: " + totalIMC)
 
 
 </script>
