@@ -11,7 +11,7 @@
 
     function desenhaCirculo(evento) {
 
-        if(desenha) {
+        if (desenha) {
             var x = evento.pageX - tela.offsetLeft;
             var y = evento.pageY - tela.offsetTop;
             pincel.fillStyle = 'blue';
@@ -24,18 +24,12 @@
 
     tela.onmousemove = desenhaCirculo;
 
-    function habilitaDesenhar() {
-
+    tela.onmousedown = function () {
         desenha = true;
     }
 
-    function desabilitaDesenhar() {
-
+    tela.onmouseup = function () {
         desenha = false;
     }
-
-    tela.onmousedown = habilitaDesenhar;
-
-    tela.onmouseup = desabilitaDesenhar;
 
 </script>
