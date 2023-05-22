@@ -1,4 +1,27 @@
-p{
-    text-align: center;
+body {
+    background: #CCCCCC
 }
+
+
+h1 {
+    text-align: center
+}
+
+
+p {
+    text-align: center;   
+}
+
+
+#misao {
+    font-size: 20px
+}
+
+em strong {
+    color: red;
+}
+
+
+
+
 
