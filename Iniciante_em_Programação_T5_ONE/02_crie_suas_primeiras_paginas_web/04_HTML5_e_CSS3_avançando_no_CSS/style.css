@@ -1,164 +1,159 @@
 
 body{
-    font-family: 'Montserrat', sans-serif; /*fonte retirada no google fonts*/
+    font-family: 'Montserrat', sans-serif; /* Define a fonte usada para o corpo do documento */
 }
 
 header{
-    background: #BBBBBB;
-    padding: 20px 0;
+    background: #BBBBBB; /* Define o fundo do elemento <header> com uma cor cinza */
+    padding: 20px 0; /* Adiciona 20 pixels de espaçamento acima e abaixo do elemento <header> */
 }
 
 .caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
+    position: relative; /* Define a posição do elemento como relativa em relação ao fluxo normal */
+    width: 940px; /* Define a largura do elemento para 940 pixels */
+    margin: 0 auto; /* Centraliza o elemento horizontalmente dentro do seu contêiner pai */
 }
 
+
 nav {
-    position: absolute;
-    top: 110px;
-    right:0;
-    
+    position: absolute; /* Define a posição do elemento como absoluta em relação ao seu contêiner pai */
+    top: 110px; /* Define a distância de 110 pixels a partir do topo do contêiner pai */
+    right:0; /* Alinha o elemento à direita dentro do seu contêiner pai */
 }
 
 nav li{
-    display: inline;
-    margin: 0 0 0 15px; 
+    display: inline; /* Faz com que os itens da lista sejam exibidos em linha */
+    margin: 0 0 0 15px; /* Adiciona uma margem à esquerda de 15 pixels para separar os itens da lista */
 }
 
 nav a {
-    text-transform: uppercase;
-    color:black;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none; 
+    text-transform: uppercase; /* Transforma o texto em caixa alta */
+    color:black; /* Define a cor do texto como preto */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    font-size: 22px; /* Define o tamanho da fonte como 22 pixels */
+    text-decoration: none; /* Remove a decoração de sublinhado do link */
 }
 
 nav a:hover{
-    color: #c78c19;
-    text-decoration: underline;
+    color: #c78c19; /* Define a cor do texto como um tom de laranja quando o link é destacado */
+    text-decoration: underline; /* Adiciona um sublinhado ao link quando é destacado */
 }
 
 .produtos{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
+    width: 940px; /* Define a largura do elemento para 940 pixels */
+    margin: 0 auto; /* Centraliza o elemento horizontalmente dentro do seu contêiner pai */
+    padding: 50px 0; /* Adiciona 50 pixels de espaçamento acima e abaixo do elemento */
 }
 
 .produtos li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 10px;
-
+    display: inline-block; /* Faz com que os itens da lista sejam exibidos em linha e formem blocos */
+    text-align: center; /* Centraliza o conteúdo dos itens da lista horizontalmente */
+    width: 30%; /* Define a largura dos itens da lista como 30% do contêiner pai */
+    vertical-align: top; /* Alinha os itens da lista ao topo */
+    margin: 0 1.5%; /* Adiciona uma margem de 1.5% à esquerda e à direita dos itens da lista */
+    padding: 30px 20px; /* Adiciona 30 pixels de espaçamento acima e abaixo e 20 pixels de espaçamento à esquerda e à direita dos itens da lista */
+    box-sizing: border-box; /* Faz com que a largura e a altura dos itens da lista incluam as bordas e o preenchimento */
+    border: 2px solid #000000; /* Adiciona uma borda de 2 pixels sólida na cor preta aos itens da lista */
+    border-radius: 10px; /* Adiciona um raio de borda de 10 pixels aos itens da lista */
 }
 
 .produtos li:hover {
-    border-color: #c78c19;
-    
+    border-color: #c78c19; /* Define a cor da borda como um tom de laranja quando o item é destacado */
 }
 
 .produtos li:active{
-    border-color: green;
+    border-color: green; /* Define a cor da borda como verde quando o item está ativo (clicado) */
 }
 
 .produtos li:hover h2{
-    font-size: 34px;
+    font-size: 34px; /* Aumenta o tamanho da fonte do título (<h2>) dentro do item da lista quando ele é destacado */
 }
 
 .produtos h2 {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 30px; /* Define o tamanho da fonte do título (<h2>) como 30 pixels */
+    font-weight: bold; /* Define o peso da fonte do título como negrito */
 }
 
 .produto-drescricao{
-    font-size: 18px;
+    font-size: 18px; /* Define o tamanho da fonte da descrição do produto como 18 pixels */
 }
 
 .produto-preco{
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
-
+    font-size: 22px; /* Define o tamanho da fonte do preço do produto como 22 pixels */
+    font-weight: bold; /* Define o peso da fonte do preço como negrito */
+    margin-top: 10px; /* Adiciona uma margem superior de 10 pixels ao preço do produto */
 }
 
 footer{
-    text-align: center;
-    background: url("img/bg.jpg");
-    padding: 40px 0;  
+    text-align: center; /* Centraliza o conteúdo do rodapé horizontalmente */
+    background: url("img/bg.jpg"); /* Define uma imagem de fundo para o rodapé */
+    padding: 40px 0; /* Adiciona 40 pixels de espaçamento acima e abaixo do rodapé */
 }
 
 .Copyright {
-    color: white;
-    font-size: 13px;
-    margin: 20px;
+    color: white; /* Define a cor do texto como branco */
+    font-size: 13px; /* Define o tamanho da fonte como 13 pixels */
+    margin: 20px; /* Adiciona uma margem de 20 pixels em todos os lados do elemento */
 }
 
 main {
-    width: 940px;
-    margin: 0 auto;
+
 }
 
 form {
-    margin:40px 0;
-
+    margin:40px 0; /* Adiciona uma margem de 40 pixels acima e abaixo do formulário */
 }
 
 form label, form legend {
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
+    display: block; /* Faz com que as etiquetas e legendas sejam exibidas em blocos */
+    font-size: 20px; /* Define o tamanho da fonte como 20 pixels */
+    margin: 0 0 10px; /* Adiciona uma margem de 0 acima, 0 à direita e 10 pixels abaixo das etiquetas e legendas */
 }
 
 .input-padrao {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
+    display: block; /* Faz com que os elementos de entrada sejam exibidos em blocos */
+    margin: 0 0 20px; /* Adiciona uma margem de 0 acima, 0 à direita e 20 pixels abaixo dos elementos de entrada */
+    padding: 10px 25px; /* Adiciona 10 pixels de espaçamento acima e abaixo e 25 pixels de espaçamento à esquerda e à direita dos elementos de entrada */
+    width: 50%; /* Define a largura dos elementos de entrada como 50% do seu contêiner pai */
 }
 
 .checkbox{
-    margin: 20px 0;
+    margin: 20px 0; /* Adiciona uma margem de 20 pixels acima e abaixo dos elementos de caixa de seleção */
 }
 
 .enviar {
-    width: 40%;
-    padding: 15px 0;
-    background: orange;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    transition: 1s all;
-    cursor:pointer;
+    width: 40%; /* Define a largura do botão de envio como 40% do seu contêiner pai */
+    padding: 15px 0; /* Adiciona 15 pixels de espaçamento acima e abaixo do botão de envio */
+    background: orange; /* Define a cor de fundo do botão de envio como laranja */
+    color: white; /* Define a cor do texto do botão de envio como branco */
+    font-weight: bold; /* Define o peso da fonte do botão de envio como negrito */
+    font-size: 18px; /* Define o tamanho da fonte do botão de envio como 18 pixels */
+    border: none; /* Remove a borda do botão de envio */
+    border-radius: 5px; /* Adiciona um raio de borda de 5 pixels ao botão de envio */
+    transition: 1s all; /* Adiciona uma transição de 1 segundo para todas as propriedades */
+    cursor:pointer; /* Mostra um ponteiro ao passar o mouse sobre o botão de envio */
 }
 
 .enviar:hover {
-    background: darkorange;
-    transform: scale(1.2);
-
+    background: darkorange; /* Define a cor de fundo do botão de envio como laranja escuro quando é destacado */
+    transform: scale(1.2); /* Aumenta a escala do botão de envio em 20% quando é destacado */
 }
 
 table {
-    margin: 20px 0 40px;
+    margin: 20px 0 40px; /* Adiciona uma margem de 20 pixels acima, 0 à direita e 40 pixels abaixo da tabela */
 }
 
 thead {
-    background: #555555;
-    color: white;
-    font-weight: bold;
+    background: #555555; /* Define o fundo do cabeçalho da tabela com uma cor cinza escura */
+    color: white; /* Define a cor do texto do cabeçalho como branco */
+    font-weight: bold; /* Define o peso da fonte do cabeçalho como negrito */
 }
 
 td, th{
-    border: 1px solid #000000 ;
-    padding: 8px 15px ;
+    border: 1px solid #000000 ; /* Adiciona uma borda de 1 pixel sólida na cor preta às células da tabela */
+    padding: 8px 15px ; /* Adiciona 8 pixels de espaçamento acima e abaixo e 15 pixels de espaçamento à esquerda e à direita nas células da tabela */
 }
+
 
 /*CSS Página Home*/
 
@@ -171,7 +166,26 @@ td, th{
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+}
 
+/*.titulo-principal:first-letter{
+    font-weight: bold;
+
+
+.titulo-principal:before{
+    content: "[ ";
+    
+}
+
+.titulo-principal:after{
+content: " ]";
+}*/
+
+.principal{
+    padding: 3em 0;
+    background: #ffffff;
+    width: 940px; /* Define a largura do elemento como 940 pixels */
+    margin: 0 auto; /* Centraliza o elemento horizontalmente dentro do seu contêiner pai */
 }
 
 .principal p {
@@ -194,6 +208,13 @@ td, th{
 
 .mapa  {
     padding: 3em 0;
+    background: linear-gradient(#ffffff,#888888);
+}
+
+.mapa-conteudo{
+    width: 940px; /* Define a largura do elemento como 940 pixels */
+    margin: 0 auto; /* Centraliza o elemento horizontalmente dentro do seu contêiner pai */
+
 }
 
 .mapa p {
@@ -203,6 +224,7 @@ td, th{
 
 .beneficios {
     padding: 3em 0;
+    background: #888888;
 
 }
 
@@ -229,8 +251,19 @@ td, th{
     font-weight: bold;
 }*/
 
+.itens:before{
+    content: "✭";
+}
+
 .imagem-beneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover{
+    opacity: 0.3;
 }
 
 .video {
